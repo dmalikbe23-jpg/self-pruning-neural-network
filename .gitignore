@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# dataset zip file
+data/cifar-10-python.tar.gz
+
+# system files
+.DS_Store

@@ -85,7 +85,7 @@ The model learns a **bimodal distribution**:
 - Values near **0 → pruned weights**
 - Values near **1 → important weights**
 
-![Gate Distribution](gate_distribution.png)
+![Gate Distribution](outputs/gate_distribution.png)
 
 ---
 
@@ -107,27 +107,6 @@ The model learns a **bimodal distribution**:
 - NumPy  
 - Matplotlib  
 - tqdm  
-
----
-
-## 📦 Project Structure
-self_pruning_nn/
-│
-├── models/
-│ ├── prunable_linear.py
-│ └── network.py
-│
-├── utils/
-│ ├── loss.py
-│ ├── metrics.py
-│ └── plot.py
-│
-├── train.py
-├── config.py
-├── requirements.txt
-├── report.md
-├── results.csv
-└── README.md
 
 ---
 
